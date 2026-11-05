@@ -1,0 +1,9 @@
+node_modules/
+.DS_Store
+.env
+.env.*
+.cache/
+test-results/
+*.blend1
+*.blend2
+playwright-report/

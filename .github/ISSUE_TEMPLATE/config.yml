@@ -1,0 +1,5 @@
+blank_issues_enabled: false
+contact_links:
+  - name: Contribution guide
+    url: https://github.com/elitol770/bible-horizons-community/blob/main/CONTRIBUTING.md
+    about: Start here for scene packages, rights, review and commercial-use terms.

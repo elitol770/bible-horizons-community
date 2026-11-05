@@ -1,0 +1,17 @@
+name: Previewer or contribution-kit bug
+description: Report a reproducible problem in this kit.
+title: "[Bug] "
+body:
+  - type: textarea
+    id: steps
+    attributes:
+      label: Reproduction steps and expected behavior
+    validations:
+      required: true
+  - type: textarea
+    id: environment
+    attributes:
+      label: Browser, device, package and actual result
+      description: Do not include secrets or personal data in logs.
+    validations:
+      required: true

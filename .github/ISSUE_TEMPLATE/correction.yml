@@ -1,0 +1,23 @@
+name: Passage or evidence correction
+description: Report a specific source-backed content concern.
+title: "[Correction] "
+body:
+  - type: input
+    id: location
+    attributes:
+      label: Page, package and passage
+    validations:
+      required: true
+  - type: textarea
+    id: concern
+    attributes:
+      label: Current claim and proposed correction
+    validations:
+      required: true
+  - type: textarea
+    id: source
+    attributes:
+      label: Supporting source and precise locator
+      description: Include edition/verse or publication/page and a link. Identify interpretive alternatives.
+    validations:
+      required: true

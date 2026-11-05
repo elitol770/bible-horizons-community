@@ -1,0 +1,34 @@
+name: Scene or asset proposal
+description: Propose a focused 3D asset, scene or interaction before building it.
+title: "[Proposal] "
+body:
+  - type: textarea
+    id: purpose
+    attributes:
+      label: Passage and learning purpose
+      description: Which passage, object or event does this help someone understand?
+    validations:
+      required: true
+  - type: textarea
+    id: change
+    attributes:
+      label: What should the visitor see or do?
+      description: Describe the concrete visual/interactive result and accessible equivalent.
+    validations:
+      required: true
+  - type: textarea
+    id: sources
+    attributes:
+      label: Sources, uncertainty and asset rights
+      description: Include source links, what is artistic or unknown, and planned asset origins/licenses.
+    validations:
+      required: true
+  - type: checkboxes
+    id: terms
+    attributes:
+      label: Contribution terms
+      options:
+        - label: I read the licensing policy and understand that public contributions may be used commercially, with the required credit.
+          required: true
+        - label: I understand that this proposal is not publication approval or a promise of payment.
+          required: true
